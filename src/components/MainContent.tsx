@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import Sidebar from './Sidebar';
 import Article from './Article';  // Import the new Article component
@@ -9,7 +7,7 @@ import azizKi from '../assets/images/aziz-ki.jpg';
 
 const MainContent: React.FC = () => {
   return (
-    <main className="flex gap-4 p-4">
+    <main className="flex flex-col md:flex-row gap-4 p-4">
       <section className="content flex-1">
         <h2 className="text-2xl font-bold mb-6 text-gray-900">Habari za Hivi Punde</h2>
         <Article
