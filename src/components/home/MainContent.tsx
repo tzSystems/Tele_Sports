@@ -7,7 +7,8 @@ import azizKi from '../../assets/images/aziz-ki.jpg';
 
 const MainContent: React.FC = () => {
   return (
-    <main className="flex gap-4 ">
+    <main className="flex flex-col md:flex-row gap-4 p-4">
+      {/* Main Articles Section */}
       <section className="content flex-1">
         <h2 className="text-2xl font-bold mb-6 text-gray-900">Habari za Hivi Punde</h2>
         <Article
@@ -29,6 +30,8 @@ const MainContent: React.FC = () => {
           content="Young Africans wametangaza usajili wao mpya kwa msimu ujao..."
         />
       </section>
+
+      {/* Sidebar Section */}
       <Sidebar />
     </main>
   );
