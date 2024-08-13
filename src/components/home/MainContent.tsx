@@ -1,13 +1,13 @@
 import React from 'react';
 import Sidebar from './Sidebar';
 import Article from './Article'; // Import the Article component
-import simbaWins from '../assets/images/simba-wins.jpg';
-import simbaYanga from '../assets/images/simba-yanga.jpg';
-import azizKi from '../assets/images/aziz-ki.jpg';
+import simbaWins from '../../assets/images/simba-wins.jpg';
+import simbaYanga from '../../assets/images/simba-yanga.jpg';
+import azizKi from '../../assets/images/aziz-ki.jpg';
 
 const MainContent: React.FC = () => {
   return (
-    <main className="flex gap-4">
+    <main className="flex gap-4 ">
       <section className="content flex-1">
         <h2 className="text-2xl font-bold mb-6 text-gray-900">Habari za Hivi Punde</h2>
         <Article

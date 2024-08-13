@@ -18,7 +18,7 @@ const ScoreboardItem: React.FC<ScoreboardItemProps> = ({ team1, team2, score, da
 );
 
 const Scoreboard: React.FC = () => (
-  <div className="scoreboard bg-white p-6 shadow-lg rounded-lg border border-gray-200">
+  <div className="scoreboard mt-8 p-6 shadow-lg rounded-lg border border-gray-200">
     <h3 className="text-2xl font-semibold mb-6 text-gray-900">Matokeo</h3>
     <ul className="space-y-4">
       <ScoreboardItem team1="Simba SC" team2="Yanga SC" score="2 - 1" date="12 Agosti 2024" />

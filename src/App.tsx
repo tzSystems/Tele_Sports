@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from './components/Header';
-import MainContent from './components/MainContent';
-import Footer from './components/Footer';
-import VideoHighlights from './components/VideoHighlights';
+import Header from './components/home/Header';
+import MainContent from './components/home/MainContent';
+import Footer from './components/home/Footer';
+import VideoHighlights from './components/home/VideoHighlights';
 
 const App: React.FC = () => {
   return (
